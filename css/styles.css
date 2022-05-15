@@ -29,7 +29,7 @@ img {
 .outer-box {
     /* width -> responsive */
     width: 85%;
-    background-color: blue;
+    background-color: red;
     border-radius: 15px;
 
     /* positioning it in the center */
