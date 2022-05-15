@@ -28,7 +28,7 @@ img {
 /* Now for the outer-box */
 .outer-box {
     /* width -> responsive */
-    width: 15%;
+    width: 85%;
     background-color: blue;
     border-radius: 15px;
 
@@ -43,8 +43,8 @@ img {
     box-shadow: 0 2px 20px rgba(0, 0, 0);
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 400px) {
     .outer-box {
-        width: 85%;
+        width: 15%;
     }
 }
