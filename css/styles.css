@@ -41,4 +41,11 @@ img {
     padding: 10px;
     text-align: center;
     box-shadow: 0 2px 20px rgba(0, 0, 0);
+    
+    @media only screen and (max-width: 375px) {
+    .outer-box {
+        margin-top: 200px;
+        width:85%;
+    }
+}
 }
